@@ -16,6 +16,6 @@ if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerMWwErb8\App_KernelDevDebugContainer([
     'container.build_hash' => 'MWwErb8',
-    'container.build_id' => 'a6072a17',
-    'container.build_time' => 1666967242,
+    'container.build_id' => 'aef0052e',
+    'container.build_time' => 1666967630,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerMWwErb8');
