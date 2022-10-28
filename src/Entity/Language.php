@@ -7,6 +7,7 @@ use App\Repository\LangageRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: LangageRepository::class)]
+#[ORM\Table(schema:"translation")]
 #[ApiResource]
 class Language
 {

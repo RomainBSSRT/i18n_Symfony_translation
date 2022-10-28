@@ -7,6 +7,7 @@ use App\Repository\ApplicationRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ApplicationRepository::class)]
+#[ORM\Table(schema:"translation")]
 #[ApiResource]
 class Application
 {
